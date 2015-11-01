@@ -30,4 +30,6 @@
             });
         };
     })(Hammer.Manager.prototype.emit);
+
+    return Hammer;
 }));
