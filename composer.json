@@ -1,5 +1,5 @@
 {
-  "name": "backstrap/hammer",
+  "name": "backstrap/hammerjs",
   "description": "A javascript library for multi-touch gestures",
   "type": "component",
   "license": "MIT",
@@ -16,16 +16,16 @@
     "source": "https://github.com/hammerjs/hammer.js"
   },
   "require": {
-     "robloach/component-installer": "*"
+    "robloach/component-installer": "*"
   },
   "extra":{
-      "component": {
-        "scripts": [
-            "hammer.js"
-        ],
-        "shim": {
-            "deps": [ "jquery" ]
-        }
-      }
+    "component": {
+      "scripts": [
+          "hammer.js"
+      ],
+      "files": [
+          "jquery.js"
+      ]
+    }
   }
 }
